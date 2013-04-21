@@ -1,4 +1,4 @@
-# grunt-mapcat
+# grunt-mapcat [![Build Status](https://travis-ci.org/rjkip/grunt-mapcat.png?branch=master)](https://travis-ci.org/rjkip/grunt-mapcat)
 
 > Grunt plugin for mapcat, a simple JavaScript utility that combines Source Map files while concatenating JavaScript source files.
 
