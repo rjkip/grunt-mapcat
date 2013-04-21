@@ -16,9 +16,7 @@ module.exports = function(grunt) {
 
   grunt.registerMultiTask("mapcat", "Combines Source Map files while concatenating JavaScript source files.", function() {
     // Merge task-specific and/or target-specific options with these defaults.
-    var options = this.options({
-      separator: ";\n"
-    });
+    var options = this.options({});
 
     // Iterate over all specified file groups.
     this.files.forEach(function (f) {
