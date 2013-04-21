@@ -1,7 +1,7 @@
 {
   "version": 3,
   "file": "one.js",
-  "sourceRoot": "..\\..\\src\\app/",
+  "sourceRoot": "../../src/app/",
   "sources": [
     "one.coffee"
   ],
