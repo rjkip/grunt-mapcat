@@ -41,4 +41,8 @@ No options are currently available.
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+```
+2013-04-22 - 0.1.2 - Switched to mapcat NPM dependency instead of GitHub commit
+2013-04-21 - 0.1.1
+2013-04-21 - 0.1.0 - First release.
+```
