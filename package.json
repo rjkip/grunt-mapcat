@@ -47,7 +47,7 @@
     "grunt"
   ],
   "dependencies": {
-    "mapcat": "https://github.com/edc/mapcat/tarball/3c67d065c6279a0ad9feca56020e710370032ab7",
+    "mapcat": "~0.2.0",
     "mkdirp": "~0.3.5"
   }
 }
