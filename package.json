@@ -1,7 +1,7 @@
 {
   "name": "grunt-mapcat",
   "description": "Grunt plugin for mapcat, a simple JavaScript utility that combines Source Map files while concatenating JavaScript source files.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/rjkip/grunt-mapcat",
   "author": {
     "name": "Reinier Kip",
