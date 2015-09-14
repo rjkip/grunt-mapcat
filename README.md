@@ -26,8 +26,12 @@ In your project's Gruntfile, add a section named `mapcat` to the data object pas
 grunt.initConfig({
   mapcat: {
     default: {
-      src: ["assets/src/app/*.js.map"],
-      dest: "assets/dist/app.js"
+      files: {
+        "assets/dist/app.js": ["assets/src/app/*.js.map"]
+      },
+      options: {
+        maproot: '' // A path to prepend to the source mapping URL
+      }
     }
   },
 })
@@ -35,7 +39,12 @@ grunt.initConfig({
 
 ### Options
 
-No options are currently available.
+#### maproot
+
+Type: `String`
+Default: `''`
+
+A path to prepend to the source mapping URL.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
