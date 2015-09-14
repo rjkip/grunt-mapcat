@@ -32,8 +32,16 @@ module.exports = function(grunt) {
     // Configuration to be run (and then tested).
     mapcat: {
       default: {
-        src: ["test/fixtures/*.js.map"],
-        dest: "tmp/app.js"
+        src: ["test/fixtures/default/files/*.js.map"],
+        dest: "tmp/default.js"
+      },
+      maproot: {
+        files: {
+          "tmp/maproot.js": ["test/fixtures/maproot/files/*.js.map"]
+        },
+        options: {
+          maproot: 'meh/'
+        }
       }
     },
 

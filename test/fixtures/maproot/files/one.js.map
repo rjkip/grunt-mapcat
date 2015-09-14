@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "one.js",
+  "sourceRoot": "../../src/app/",
+  "sources": [
+    "one.coffee"
+  ],
+  "names": [],
+  "mappings": "AACA;CAAA,CAAA,CAAA,IAAO,KAAP;CAAA"
+}
